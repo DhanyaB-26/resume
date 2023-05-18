@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Prompt:wght@500&family=Raleway:wght@300&family=Prompt:wght@300&family=Roboto+Mono:wght@300&display=swap');
+*{
+    background-color: rgba(254, 254, 244, 0.847);
+    font-family: 'Prompt';
+}
+
+body{
+    margin: 30px;
+}
+
+.heading1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+}
+
+.social-media span a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+/* main-sections in the resume*/
+
+.main-section{
+   padding-bottom: 20px;
+   font-weight: 200;
+}
+
+.main-section .heading2{
+    border-bottom: 1px solid rgb(48, 47, 47);
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 22px;
+    /* padding-left: 10px; */
+    /* background-color: rgb(150, 181, 239); */
+}
+
+/* .main-section .sections{
+    padding-top: 10px;
+} */
+
+.main-section .sections .heading3{
+    font-weight: 400;
+}
+
+/* .section{
+    margin-bottom: 15px;
+} */
+
+.section .heading3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    font-size: 12px;
+}
+
+b{
+    font-weight: 400;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    font-size: 12px;
+}
+
+.certifications div{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    font-size: 12px;
+}
